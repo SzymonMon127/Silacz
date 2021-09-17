@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartingPage4">
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar_main"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pattern1"
+            android:layout_above="@+id/adView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/start4"/>
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/submit"
+                        android:textColor="#000000"
+                        android:textSize="36dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/table"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/weight_icon" />
+
+                            <TextView
+                                android:id="@+id/Weight_submit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="xx kg"
+                                android:textColor="#000000"
+                                android:textSize="14dp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/height_icon" />
+
+                            <TextView
+                                android:id="@+id/Height_submit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="xxx cm"
+                                android:textColor="#000000"
+                                android:textSize="14dp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/age_icon" />
+
+                            <TextView
+                                android:id="@+id/Age_submit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="xx"
+                                android:textColor="#000000"
+                                android:textSize="14dp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/gender_icon" />
+
+                            <TextView
+                                android:id="@+id/Gender_submit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="xxxx "
+                                android:textColor="#000000"
+                                android:textSize="14dp" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/table_small"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="@string/training"
+                            android:textColor="#000000"
+                            android:textSize="22dp" />
+
+                        <TextView
+                            android:id="@+id/training_submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="xxxxxxxxxxx"
+                            android:textColor="#000000"
+                            android:textSize="22dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/table_small"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="@string/diet"
+                            android:textColor="#000000"
+                            android:textSize="22dp" />
+
+                        <TextView
+                            android:id="@+id/diet_submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="xxxxxx"
+                            android:textColor="#000000"
+                            android:textSize="22dp" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/youKcal"
+                        android:textColor="#000000"
+                        android:textSize="28dp" />
+
+                    <LinearLayout
+                        android:layout_width="260dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/table_small"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="@string/training"
+                            android:textColor="#000000"
+                            android:textSize="22dp" />
+
+                        <TextView
+                            android:id="@+id/kcal_training_submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="xxxxx"
+                            android:textColor="#000000"
+                            android:textSize="22dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="260dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/table_small"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="@string/freeDay"
+                            android:textColor="#000000"
+                            android:textSize="22dp" />
+
+                        <TextView
+                            android:id="@+id/kcal_freeDay_submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="xxxxx"
+                            android:textColor="#000000"
+                            android:textSize="22dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="260dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/table_small"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="@string/BMI"
+                            android:textColor="#000000"
+                            android:textSize="22dp" />
+
+                        <TextView
+                            android:id="@+id/BMI_submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="xx"
+                            android:textColor="#000000"
+                            android:textSize="22dp" />
+
+
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="125dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/next"
+                        android:onClick="OnClickGoNext"
+                        android:textColor="#000000"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+        </ScrollView>
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_unit_id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

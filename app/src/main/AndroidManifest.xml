@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.silacz">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/icon_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key"/>
+
+        <activity
+            android:name=".DietActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".TrainingActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".WalkingActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".DietListActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".TrainingListActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".ChartActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".WaterActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuActivity" />
+        <activity android:name=".MenuActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StartingPage4"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".StartingPage3" />
+        <activity
+            android:name=".StartingPage3"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".StartingPage2" />
+        <activity
+            android:name=".StartingPage2"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".StartingPage1" />
+        <activity android:name=".StartingPage1"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+
+
+
+
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6555234985187895~3922854674" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".StartingPage3">
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar_main"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pattern1"
+            android:layout_above="@+id/adView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/start3"/>
+
+                    <ImageButton
+                        android:layout_width="250dp"
+                        android:layout_height="125dp"
+                        android:background="@drawable/training_amator"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        android:onClick="OnClickSwitchAmator"
+                        android:id="@+id/training_amator"
+                        android:layout_marginTop="40dp"/>
+
+
+
+
+
+                    <ImageButton
+                        android:layout_width="250dp"
+                        android:layout_height="125dp"
+                        android:background="@drawable/training_semi_professional"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        android:onClick="OnClickSwitchSemiProfessional"
+                        android:id="@+id/training_semi_professional"
+                        android:layout_marginTop="40dp"/>
+
+
+
+                    <ImageButton
+                        android:layout_width="250dp"
+                        android:layout_height="125dp"
+                        android:background="@drawable/training_professional"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        android:onClick="OnClickSwitchProfessional"
+                        android:id="@+id/training_professional"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_unit_id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

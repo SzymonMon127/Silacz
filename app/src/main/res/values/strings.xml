@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Silacz</string>
+    <string name="welcome_text">ZDROWY SILACZ</string>
+    <string name="login_fb">Zaloguj przez Facebooka</string>
+    <string name="login_google">Zaloguj przez Googla</string>
+    <string name="age">Wiek</string>
+    <string name="weight">Waga</string>
+    <string name="Height">Wzrost</string>
+    <string name="Gender">Płeć</string>
+    <string name="age_hint">Wpisz wiek</string>
+    <string name="weight_hint">Wpisz wagę (kg)</string>
+    <string name="Height_hint">Wpisz wzrost (cm)</string>
+    <string name="Man">Mężczyzna</string>
+    <string name="Women">Kobieta</string>
+    <string name="Next">Dalej</string>
+    <string name="Reduction">Redukcja</string>
+    <string name="muscleMass">Masa mięśniowa</string>
+    <string name="trainingAmator">Trening początkujący</string>
+    <string name="trainingSemiProfessional">Trening średnio-zaawansowany</string>
+    <string name="trainingProfessional">Trening Zaawansowany</string>
+    <string name="submit">PODSUMOWANIE:</string>
+    <string name="training">Trening:  </string>
+    <string name="diet">Dieta: </string>
+    <string name="BMI">BMI: </string>
+    <string name="freeDay">Codzień: </string>
+    <string name="end">Zakończ</string>
+    <string name="youKcal">Twoje zapotrzebowanie:</string>
+
+    <string name="facebook_app_id">4377313415621019</string>
+    <string name="fb_login_protocol_scheme">fb4377313415621019</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_Logout">Wyloguj</string>
+    <string name="currentWeight">"Obecna waga: "</string>
+    <string name="maxWeight">"Największa Waga: "</string>
+    <string name="minWeight">Najmniejsza Waga :</string>
+    <string name="kcalNormal">Zapotrzebowanie kcal codzień :</string>
+    <string name="kcalTraining">Zapotrzebowanie kcal trening :</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="permission_denied">Wymagany dostęp do lokalizacji</string>
+
+    <string-array name="diet">
+        <item>Dieta</item>
+        <item>Redukcja</item>
+        <item>Masa mięśniowa</item>
+
+    </string-array>
+
+    <string-array name="training">
+        <item>Trening</item>
+        <item>Początkujący</item>
+        <item>Pół-zaawansowany</item>
+        <item>Zaawansowany</item>
+
+    </string-array>
+
+    <string-array name="gender">
+        <item>Płeć</item>
+        <item>Mężczyzna</item>
+        <item>Kobieta</item>
+
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-6555234985187895/1926219059</string>
+
+
+    <string name="NEWS_CHANNEL_ID">news</string>
+    <string name="CHANNEL_NEWS">News</string>
+    <string name="CHANNEL_DESCRIPTION">Get informed with new updates</string>
+    <string name="deleteChart">Wyzeruj wykres</string>
+
+
+</resources>

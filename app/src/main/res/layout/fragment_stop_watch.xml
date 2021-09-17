@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/stopwatch_background"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="32sp"
+        />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="@string/start"
+
+        />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="@string/stop" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="@string/reset"
+        />
+
+</LinearLayout>

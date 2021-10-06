@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".DietListActivity">
+    tools:context="com.sm.healthy_man.DietListActivity">
 
     <include
         layout="@layout/toolbar_main"
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:name="com.example.silacz.DietListFragment"
+        android:name="com.sm.healthy_man.DietListFragment"
         android:id="@+id/DietListFragment"/>
 
     <com.google.android.gms.ads.AdView

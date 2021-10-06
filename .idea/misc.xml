@@ -3,7 +3,48 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/drawable-mdpi/gradient2.xml" value="0.284375" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19375" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/drawable/cbp_1.xml" value="0.24351851851851852" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/drawable/gradient1.xml" value="0.15185185185185185" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/drawable/green_progress_drawable.xml" value="0.3828125" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19375" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_chart.xml" value="0.271286231884058" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_diet.xml" value="0.24739583333333334" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_diet_list.xml" value="0.27395833333333336" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_main.xml" value="0.21195652173913043" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_private_policy_u_r_l.xml" value="0.21195652173913043" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_producents_info.xml" value="0.21195652173913043" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_settings.xml" value="0.34103260869565216" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_starting_page1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_starting_page2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_starting_page3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_starting_page4.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_training.xml" value="0.36666666666666664" />
         <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_walking.xml" value="0.27807971014492755" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/activity_water.xml" value="0.24739583333333334" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/card_captioned_image.xml" value="0.27395833333333336" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/card_captioned_image2.xml" value="0.27395833333333336" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/fragment_diet_detail.xml" value="0.21195652173913043" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/fragment_diet_detail2.xml" value="0.21195652173913043" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/fragment_diet_detail3.xml" value="0.21195652173913043" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/fragment_diet_detail4.xml" value="0.21195652173913043" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/fragment_diet_list.xml" value="0.27395833333333336" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/fragment_menu.xml" value="0.27395833333333336" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/fragment_music.xml" value="0.5" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/fragment_training_detail1.xml" value="0.2682291666666667" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/fragment_training_detail6.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/gradient1.xml" value="0.1" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/notification_collapsed.xml" value="0.33" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/notification_expanded.xml" value="0.22" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/toolbar_main.xml" value="0.190625" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/layout/toolbar_transparent.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/menu/main.xml" value="0.2578125" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/menu/sign_in.xml" value="0.2578125" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/menu/walking.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/mipmap-anydpi-v26/icon_launcher.xml" value="0.3769230769230769" />
+        <entry key="..\:/Android/SilaczFile/app/src/main/res/xml/file_path.xml" value="0.23072916666666668" />
       </map>
     </option>
   </component>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/pattern1"
-    tools:context=".DietDetailFragment2">
+    tools:context="com.sm.healthy_man.DietDetailFragment2">
 
 
     <ScrollView
@@ -71,6 +71,8 @@
                     android:layout_gravity="center"
                     android:background="@drawable/letter"
                     android:gravity="center"
+                    android:layout_marginStart="5dp"
+
                     android:id="@+id/producsList"
                     android:layout_marginBottom="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"

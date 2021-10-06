@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".StartingPage1">
+    tools:context="com.sm.healthy_man.StartingPage1">
 
     <include
         android:id="@+id/toolbar_main"
@@ -154,7 +154,7 @@
                         android:layout_marginTop="15dp"
                         android:layout_marginRight="20dp"
                         android:background="@drawable/next"
-                        android:onClick="OnClickGoNext"
+                        android:id="@+id/goNext"
                         android:textColor="#000000"
                         android:layout_marginBottom="60dp"
                         android:textSize="18dp" />

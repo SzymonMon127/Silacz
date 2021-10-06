@@ -8,20 +8,40 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:721939246635:android:66db6aef9af0809161c46e",
+        "mobilesdk_app_id": "1:721939246635:android:ff6f771d446b6aae61c46e",
         "android_client_info": {
-          "package_name": "com.example.silacz"
+          "package_name": "com.sm.healthy_man"
         }
       },
       "oauth_client": [
         {
-          "client_id": "721939246635-kg3n755bsfb024af95r6aaa2rk8oet49.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "721939246635-3ne92k1oshcu7rg2vt0t76t269c5337v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sm.healthy_man",
+            "certificate_hash": "8c2266e272b1468b2146b7428e0fe0fb61bf52bf"
+          }
+        },
+        {
+          "client_id": "721939246635-ai8751i9c290jobtg7m7622qmssesh4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sm.healthy_man",
+            "certificate_hash": "17aba502756b7fc408ad2267672d78ff5b19567c"
+          }
+        },
+        {
+          "client_id": "721939246635-vei63e2rds5so7u8lchbg4h0f831gbjn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sm.healthy_man",
+            "certificate_hash": "445dfdc1d2933610acd1ce92541c85dcacf9f3dc"
+          }
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA2Qf3lnUSCpEaI4bufW4OX5GAD4Cdmw4k"
+          "current_key": "AIzaSyCFV8BeX81KdPY0qXQmg80GdUGFMNxkCK4"
         }
       ],
       "services": {

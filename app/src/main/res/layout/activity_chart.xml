@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ChartActivity">
+    tools:context="com.sm.healthy_man.ChartActivity">
 
     <include
         layout="@layout/toolbar_main"
@@ -78,14 +78,15 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:text="@string/currentWeight"
-                            android:textSize="16dp"
-                            android:textColor="#000000"/>
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
                             android:textColor="#000000"
                             android:id="@+id/currentWeight"
                             android:gravity="center"/>
@@ -105,7 +106,7 @@
                             android:layout_gravity="center"
                             android:text="@string/maxWeight"
                             android:gravity="center"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
                             android:textColor="#000000"/>
 
                         <TextView
@@ -113,7 +114,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:id="@+id/maxWeight"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
                             android:textColor="#000000"
                             android:gravity="center"/>
 
@@ -132,7 +134,7 @@
                             android:layout_gravity="center"
                             android:text="@string/minWeight"
                             android:gravity="center"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
                             android:textColor="#000000"/>
 
                         <TextView
@@ -140,7 +142,36 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:id="@+id/minWeight"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/HeightCurrent"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="#000000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:id="@+id/height_current"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
                             android:textColor="#000000"
                             android:gravity="center"/>
 
@@ -159,7 +190,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:text="@string/kcalNormal"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
                             android:textColor="#000000"/>
 
                         <TextView
@@ -167,7 +198,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:id="@+id/kcal1"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
                             android:textColor="#000000"
                             android:gravity="center"/>
 
@@ -186,7 +218,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:text="@string/kcalTraining"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
                             android:textColor="#000000"/>
 
                         <TextView
@@ -194,7 +226,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:id="@+id/kcal2"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
                             android:textColor="#000000"
                             android:gravity="center"/>
 
@@ -214,7 +247,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:text="@string/BMI"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
                             android:textColor="#000000"/>
 
                         <TextView
@@ -222,7 +255,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:id="@+id/BMI"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
                             android:textColor="#000000"
                             android:gravity="center"/>
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SettingsActivity">
+    tools:context="com.sm.healthy_man.SettingsActivity">
 
     <include
         layout="@layout/toolbar_main"
@@ -128,7 +128,7 @@
                     android:layout_width="110dp"
                     android:layout_height="110dp"
                     android:layout_marginTop="20dp"
-                    android:onClick="onClickSave"
+                    android:id="@+id/settingButton"
                     android:background="@drawable/confirm"
                     android:layout_gravity="center"
                     android:layout_marginBottom="10dp"/>

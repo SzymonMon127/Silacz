@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context=".StartingPage3">
+    tools:context="com.sm.healthy_man.StartingPage3">
 
     <include
         layout="@layout/toolbar_main"
@@ -54,7 +54,6 @@
                         android:background="@drawable/training_amator"
                         android:layout_gravity="center"
                         android:foregroundGravity="center"
-                        android:onClick="OnClickSwitchAmator"
                         android:id="@+id/training_amator"
                         android:layout_marginTop="40dp"/>
 
@@ -68,7 +67,6 @@
                         android:background="@drawable/training_semi_professional"
                         android:layout_gravity="center"
                         android:foregroundGravity="center"
-                        android:onClick="OnClickSwitchSemiProfessional"
                         android:id="@+id/training_semi_professional"
                         android:layout_marginTop="40dp"/>
 
@@ -80,7 +78,6 @@
                         android:background="@drawable/training_professional"
                         android:layout_gravity="center"
                         android:foregroundGravity="center"
-                        android:onClick="OnClickSwitchProfessional"
                         android:id="@+id/training_professional"
                         android:layout_marginTop="40dp"
                         android:layout_marginBottom="10dp"

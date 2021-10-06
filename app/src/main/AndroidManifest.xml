@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.silacz">
+    package="com.sm.healthy_man">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
 
     <application
@@ -18,44 +20,54 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+
+
         <meta-data android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key"/>
 
         <activity
-            android:name=".DietActivity"
+            android:name="com.sm.healthy_man.DietActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MenuActivity" />
+            android:label="@string/diet"
+            android:parentActivityName="com.sm.healthy_man.MenuActivity" />
         <activity
-            android:name=".TrainingActivity"
+            android:name="com.sm.healthy_man.TrainingActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MenuActivity" />
+            android:label="@string/training"
+            android:parentActivityName="com.sm.healthy_man.MenuActivity" />
         <activity
-            android:name=".WalkingActivity"
+            android:name="com.sm.healthy_man.WalkingActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MenuActivity" />
+            android:label="@string/sprinter"
+            android:parentActivityName="com.sm.healthy_man.MenuActivity" />
         <activity
-            android:name=".DietListActivity"
+            android:name="com.sm.healthy_man.DietListActivity"
             android:launchMode="singleTop"
+            android:label="@string/diet"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MenuActivity" />
+            android:parentActivityName="com.sm.healthy_man.MenuActivity" />
         <activity
-            android:name=".TrainingListActivity"
+            android:name="com.sm.healthy_man.TrainingListActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MenuActivity" />
+            android:label="@string/training"
+            android:parentActivityName="com.sm.healthy_man.MenuActivity" />
         <activity
-            android:name=".ChartActivity"
+            android:name="com.sm.healthy_man.ChartActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MenuActivity" />
+            android:label="@string/chart"
+            android:parentActivityName="com.sm.healthy_man.MenuActivity" />
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.sm.healthy_man.SettingsActivity"
             android:screenOrientation="portrait"
+            android:label="@string/settings"
             android:windowSoftInputMode="adjustNothing"
-            android:parentActivityName=".MenuActivity" />
+            android:parentActivityName="com.sm.healthy_man.MenuActivity" />
         <activity
-            android:name=".WaterActivity"
+            android:name="com.sm.healthy_man.WaterActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MenuActivity" />
-        <activity android:name=".MenuActivity"
+            android:label="@string/water"
+            android:parentActivityName="com.sm.healthy_man.MenuActivity" />
+        <activity android:name="com.sm.healthy_man.MenuActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,24 +76,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".StartingPage4"
+            android:name="com.sm.healthy_man.StartingPage4"
             android:screenOrientation="portrait"
-            android:parentActivityName=".StartingPage3" />
+            android:label="@string/startingPage4"
+            android:parentActivityName="com.sm.healthy_man.StartingPage3" />
         <activity
-            android:name=".StartingPage3"
+            android:name="com.sm.healthy_man.StartingPage3"
             android:screenOrientation="portrait"
-            android:parentActivityName=".StartingPage2" />
+            android:label="@string/startingPage3"
+            android:parentActivityName="com.sm.healthy_man.StartingPage2" />
         <activity
-            android:name=".StartingPage2"
+            android:name="com.sm.healthy_man.StartingPage2"
             android:screenOrientation="portrait"
-            android:parentActivityName=".StartingPage1" />
-        <activity android:name=".StartingPage1"
+            android:label="@string/startingPage2"
+            android:parentActivityName="com.sm.healthy_man.StartingPage1" />
+        <activity android:name="com.sm.healthy_man.StartingPage1"
             android:screenOrientation="portrait"
+            android:label="@string/startingPage1"
             android:windowSoftInputMode="adjustNothing"/>
-        <activity android:name=".MainActivity"
+        <activity android:name="com.sm.healthy_man.MainActivity"
+            android:label="@string/loginLAbel"
             android:screenOrientation="portrait"/>
 
-
+        <activity
+            android:name="com.sm.healthy_man.Menu.ProducentsInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.sm.healthy_man.Menu.PrivatePolicyURLActivity"
+            android:screenOrientation="portrait" />
 
 
 
@@ -93,6 +115,18 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-6555234985187895~3922854674" />
+
+        <service android:name=".UpdateHpService" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.sm.healthy_man.WalkingActivity.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
 
     </application>
 

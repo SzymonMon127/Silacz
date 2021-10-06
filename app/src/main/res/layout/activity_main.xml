@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/pattern1"
-    tools:context=".MainActivity">
+    tools:context="com.sm.healthy_man.MainActivity">
 
     <include
         layout="@layout/toolbar_main"
@@ -42,47 +42,52 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                <ImageView
-                   android:layout_width="350dp"
-                   android:layout_height="275dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="4"
                    android:layout_gravity="center"
                    android:layout_marginTop="20dp"
                    android:foregroundGravity="center"
                    android:src="@drawable/pudzian"/>
 
 
-               <TextView
-                   android:layout_width="match_parent"
-                   android:layout_height="50dp"
-                   android:layout_gravity="center"
-                   android:layout_marginTop="30dp"
-                   android:background="@drawable/table"
-                   android:gravity="center"
-                   android:text="@string/welcome_text"
-                   android:textColor="#000000"
-                   android:textSize="36dp"
-                   app:layout_constraintBottom_toBottomOf="parent"
-                   app:layout_constraintLeft_toLeftOf="parent"
-                   app:layout_constraintRight_toRightOf="parent"
-                   app:layout_constraintTop_toTopOf="parent" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/table"
+                        android:gravity="center"
+                        android:text="@string/welcome_text"
+                        android:textColor="#000000"
+                        android:textSize="32sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
 
+                    <Button
+                        android:id="@+id/LoginGoogle"
+                        android:layout_width="260dp"
+                        android:layout_height="62dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/google"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
 
 
-               <Button
-                   android:layout_width="260dp"
-                   android:layout_height="62dp"
-                   android:layout_gravity="center"
-                   android:gravity="center"
-                   android:layout_marginTop="40dp"
-                   android:id="@+id/LoginGoogle"
-                   android:textColor="#000000"
-
-                   android:background="@drawable/google"
-                   android:textSize="18dp"
-                   android:layout_marginBottom="10dp"
-                   android:onClick="loginGoogle"/>
-
-           </LinearLayout>
+            </LinearLayout>
 
        </ScrollView>
 

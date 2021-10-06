@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/pattern1"
-    tools:context=".TrainingDetailFragment6">
+    tools:context="com.sm.healthy_man.TrainingDetailFragment6">
 
 
 

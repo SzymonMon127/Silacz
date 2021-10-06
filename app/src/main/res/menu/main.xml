@@ -1,12 +1,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MenuActivity" >
+    tools:context="com.sm.healthy_man.MenuActivity" >
 
     <item android:id="@+id/action_logout"
         android:title="@string/action_Logout"
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item android:id="@+id/private_policy"
+        android:title="@string/private_policy"
+        android:orderInCategory="99"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/producents_info"
+        android:title="@string/producentsInfoMenu"
+        app:showAsAction="never"
+        android:orderInCategory="98" />
+
+
+    <item android:id="@+id/updateInfoMenu"
+        android:title="@string/updateMenuInfo"
+        app:showAsAction="never"
+        android:orderInCategory="97" />
 
 </menu>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Login.SignInActivity" >
+
+    <item android:id="@+id/private_policy"
+        android:title="@string/private_policy"
+        android:orderInCategory="99"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/producents_info"
+        android:title="@string/producentsInfoMenu"
+        app:showAsAction="never"
+        android:orderInCategory="98" />
+
+</menu>

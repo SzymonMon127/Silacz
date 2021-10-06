@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">Silacz</string>
-    <string name="welcome_text">ZDROWY SILACZ</string>
+    <string name="app_name">Zdrowy Człowiek</string>
+    <string name="language">PL</string>
+
+    <string name="welcome_text">ZDROWY CZŁOWIEK</string>
     <string name="login_fb">Zaloguj przez Facebooka</string>
     <string name="login_google">Zaloguj przez Googla</string>
     <string name="age">Wiek</string>
@@ -33,7 +35,7 @@
     <string name="action_Logout">Wyloguj</string>
     <string name="currentWeight">"Obecna waga: "</string>
     <string name="maxWeight">"Największa Waga: "</string>
-    <string name="minWeight">Najmniejsza Waga :</string>
+    <string name="minWeight">"Najmniejsza Waga: "</string>
     <string name="kcalNormal">Zapotrzebowanie kcal codzień :</string>
     <string name="kcalTraining">Zapotrzebowanie kcal trening :</string>
     <string name="start">Start</string>
@@ -70,6 +72,22 @@
     <string name="CHANNEL_NEWS">News</string>
     <string name="CHANNEL_DESCRIPTION">Get informed with new updates</string>
     <string name="deleteChart">Wyzeruj wykres</string>
+    <string name="producentsInfoMenu"><![CDATA[Producents&Assets]]></string>
+    <string name="private_policy">Privacy Policy</string>
+    <string name="updateMenuInfo">Aktualności</string>
+    <string name="sprinter">Biegacz</string>
+    <string name="chart">Wykres</string>
+    <string name="settings">Ustawienia</string>
+    <string name="water">Popijacz</string>
+    <string name="startingPage1">Dane 1/4</string>
+    <string name="startingPage4">Dane 4/4</string>
+    <string name="startingPage3">Dane 3/3</string>
+    <string name="startingPage2">Dane 2/4</string>
+    <string name="loginLAbel">Logowanie</string>
+    <string name="default_web_client_id">721939246635-kg3n755bsfb024af95r6aaa2rk8oet49.apps.googleusercontent.com</string>
+    <string name="HeightCurrent">"Wzrost: "</string>
+    <string name="day">Dzień</string>
+    <string name="share_icon">Share</string>
 
 
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context=".StartingPage2">
+    tools:context="com.sm.healthy_man.StartingPage2">
 
     <include
         layout="@layout/toolbar_main"
@@ -53,7 +53,6 @@
                     android:background="@drawable/dieta_redukcja"
                     android:layout_gravity="center"
                     android:foregroundGravity="center"
-                    android:onClick="OnClickSwitchReduction"
                     android:id="@+id/reduction_diet"
                     android:layout_marginTop="50dp"/>
 
@@ -66,7 +65,6 @@
                     android:background="@drawable/dieta_moc"
                     android:layout_gravity="center"
                     android:foregroundGravity="center"
-                    android:onClick="OnClickSwitchMass"
                     android:id="@+id/Mass_diet"
                     android:layout_marginTop="50dp"
                     android:layout_marginBottom="10dp"/>

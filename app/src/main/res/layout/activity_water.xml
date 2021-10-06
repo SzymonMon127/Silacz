@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".WaterActivity">
+    tools:context="com.sm.healthy_man.WaterActivity">
 
     <include
         layout="@layout/toolbar_main"
@@ -69,7 +69,7 @@
                     android:layout_marginRight="20dp"
                     android:background="@drawable/water_icon"
                     android:layout_gravity="center"
-                    android:onClick="OnClickAddWater"
+                    android:id="@+id/onClickAddWatter"
                     android:foregroundGravity="center"
                     android:layout_marginTop="50dp"
                     android:layout_marginBottom="10dp"/>
